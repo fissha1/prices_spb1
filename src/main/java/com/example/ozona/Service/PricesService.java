@@ -112,12 +112,13 @@ public class PricesService {
     //return String.format("%s %s %s %s %s!", salida, fechaEnt, horaEnt, producto, brandId);
 }
 /*
+	// Lista de Precios
     public List<Prices> retrieveAllPrices() {
     	retrieveAllPrices = PricesRepository.findAll() {
 		return retrieveAllPrices;
 	} 
-*/
-    /*
+
+	// Precios volcado a array
     public List<Prices> listPrices() {
         Iterable<Prices> Prices = PricesRepository.findAll();
         List<Prices> list = new ArrayList<Prices>();
@@ -125,8 +126,7 @@ public class PricesService {
         return list;
     }
     
-*/
-/*
+/*  // Ejemplo
     public User create(User user) {
         return UserRepository.save(user);
     }

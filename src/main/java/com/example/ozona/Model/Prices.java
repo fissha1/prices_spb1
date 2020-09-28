@@ -1,5 +1,7 @@
 package com.example.ozona.Model;
 
+/* Entity Prices */
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

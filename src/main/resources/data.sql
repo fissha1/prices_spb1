@@ -1,4 +1,6 @@
+-- 
 -- Creata table prices and fields
+--
 DROP TABLE IF EXISTS Prices;
 	 
 CREATE TABLE Prices (

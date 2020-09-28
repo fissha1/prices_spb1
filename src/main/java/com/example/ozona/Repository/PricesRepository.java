@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.ozona.Model.Prices;
 
+// Simple repository
 @Repository
 public interface PricesRepository extends JpaRepository<Prices, Long>{
 
